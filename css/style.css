@@ -167,6 +167,7 @@ a {
     text-decoration: none;
 }
 
+
 .top-panel {
     display: flex;
     flex-direction: row;
@@ -349,8 +350,9 @@ a {
 
 .menu-middle-info {
     box-sizing: border-box;
-    width: 289px;
+    width: 261px;
     margin-left: 10px;
+    margin-right: 29px;
     padding: 0;
     padding-left: 43px;
     padding-top: 0px;
@@ -811,6 +813,7 @@ a {
 
 .title-info {
     margin: 0;
+    margin-right: 44px;
     margin-bottom: 20px;
     padding: 0;
     font-weight: 700;
@@ -1332,18 +1335,20 @@ a {
     box-sizing: border-box;
     width: 400px;
     padding: 0;
-    padding-right: 125px;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
 }
 
+
 .toogle-description-warranty {
-    padding-right: 20px;
+    padding-top: 0;
+    width: 280px;
 }
 
 .toogle-description-credit {
-    padding-right: 0;
+    padding-top: 0;
+    width: 278px;
 }
 
 .toogle-btn {
@@ -1464,6 +1469,7 @@ a {
 
 .transport-company {
     margin: 0;
+    margin-top:22px;
     margin-bottom: 15px;
     padding: 0;
     font-size: 18px;
@@ -1478,6 +1484,10 @@ a {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
+}
+
+.company-title-two{
+    margin: 0;
 }
 
 .company-title-padding {
@@ -2344,17 +2354,20 @@ a {
 }
 
 .footer-bottom-web-studio {
+    width: 126px;
     display: inline-block;
     vertical-align: top;
     margin: 0;
-    padding: 0 14px;
+    padding: 0 13px;
     text-align: left;
+    margin-right: -28px;
 }
 
 .footer-bottom-email {
+    width: 135px;
     display: inline-block;
     vertical-align: top;
-    margin: 0 28px 0 0;
+    margin: 0 29px 0px 0px;
     padding: 0 6px;
     text-align: left;
 }
@@ -2383,9 +2396,7 @@ a {
     top: 10vh;
 }
 
-.modal.modal-show{
-    display: block;
-}
+
 
 .modal.modal-write-us{
     position: fixed;
